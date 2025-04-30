@@ -3,6 +3,7 @@ import joblib
 from sentence_transformers.util import cos_sim
 import torch
 
+
 # Define the chatbot class
 class SemanticChatbot:
     def _init_(self, df, index, model):
